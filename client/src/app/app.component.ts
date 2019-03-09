@@ -10,8 +10,6 @@ import { Component } from '@angular/core';
       </h1>
       <app-file-download></app-file-download>
     </div>
-    
-    
   `,
   styles: []
 })
