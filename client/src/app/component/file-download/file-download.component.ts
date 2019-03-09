@@ -5,7 +5,7 @@ import { saveAs } from 'file-saver';
 const MIME_TYPES = {
   pdf: 'application/pdf',
   xls: 'application/vnd.ms-excel',
-  xlsx: 'application/vnc.openxmlformats-officedocument.spreadsheetxml.sheet'
+  xlsx: 'application/vnd.openxmlformats-officedocument.spreadsheetxml.sheet'
 }
 
 @Component({
