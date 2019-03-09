@@ -1,0 +1,10 @@
+<h3>Choose File</h3>
+
+<select #selectedFile>
+  <option value="">- select -</option>
+  <option value="sample.pdf">sample.pdf</option>
+  <option value="sample.xls">sample.xls</option>
+  <option value="sample.xlsx">sample.xlsx</option>
+</select>
+
+<button style="margin-left: 30px;" (click)="downloadFile(selectedFile.value)">Download</button>
